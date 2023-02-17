@@ -1,0 +1,152 @@
+.price {
+	@media (max-width: 1250px) {
+		.price-card {
+			&__header {
+				&-name {
+					font-size: 38px;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 1199px) {
+		background: none;
+		padding: 80px 0 150px;
+		&__title {
+			text-align: left;
+			word-wrap: break-word;
+			br {
+				display: block;
+			}
+		}
+
+		.price-card {
+			&__header {
+				padding: 20px 15px;
+				&-name {
+					font-size: 24px;
+				}
+			}
+			&__wrap {
+				padding: 0 15px;
+			}
+			&__list {
+				ul {
+					padding-left: 20px;
+					li {
+						span {
+							line-height: 24px;
+							font-size: 16px;
+						}
+						&::marker {
+							font-size: 16px;
+						}
+					}
+				}
+			}
+
+			&__shedule {
+				li {
+					&::marker {
+						font-size: 16px;
+					}
+					span {
+						font-size: 16px;
+						line-height: 24px;
+					}
+				}
+			}
+			&__button {
+				font-size: 20.8px;
+				max-width: 226px;
+				height: 56px;
+			}
+		}
+		// &__arrows {
+		// 	bottom: -50px;
+		// 	left: 50%;
+		// 	transform: translate(-50%, 0);
+		// 	top: inherit;
+		// }
+	}
+
+	@media (max-width: 767px) {
+		padding: 70px 0 140px;
+		.price-card {
+			width: 100%;
+			min-height: 100%;
+			&__list {
+				padding: 30px 0 0;
+			}
+			&__button {
+				max-width: 138px;
+				height: 34px;
+				font-size: 13px;
+			}
+			&__inner {
+				padding-bottom: 30px;
+			}
+			&__shedule {
+				margin: 0;
+			}
+		}
+	}
+	@media (max-width: 359px) {
+		.price-card {
+			&__header {
+				&-name {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}
+
+.page-price, .page-pricesale {
+	@media (max-width: 1199px) {
+		.price__title {
+			font-size: 44px;
+		}
+	}
+	@media (max-width: 991px) {
+		.container {
+			padding: 0 20px;
+		}
+		background: url('../img/price/bg-page-price.jpg') no-repeat top center / 100% 190px;
+		.price {
+			padding: 55px 0 140px;
+		}
+		.price__title {
+			font-size: 28px;
+			max-width: 100%;
+			margin-bottom: 130px;
+		}
+		.price-card {
+			&::after {
+				right: 9px;
+				top: -20px;
+				width: 40px;
+				height: 40px;
+				font-size: 12px;
+			}
+		}
+	}
+	@media (max-width: 600px) {
+		background: url('../img/price/bg-page-price.jpg') no-repeat top center / 100% 263px;
+		.price__title {
+			font-size: 26px;
+			max-width: 350px;
+		}
+	}
+}
+
+.version-version3 {
+	@media (max-width: 1199px) {
+		.price-card__header-pricesale {
+			font-size: 20px;
+		}
+		.price-card__header-sale {
+			font-size: 24px;
+		}
+	}
+}

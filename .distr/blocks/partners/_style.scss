@@ -1,0 +1,70 @@
+.partners {
+	background: #7d808e;
+	box-shadow: inset 0px 4px 124px rgba(0, 0, 0, 0.55);
+	padding: 160px 0;
+
+	&__title {
+		color: #fff;
+	}
+	&__subtitle {
+		color: #fff;
+	}
+	&__img {
+		margin-bottom: 35px;
+	}
+
+	&__items {
+		max-width: 87.2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	&__card {
+		flex: 0 1 16.666%;
+		padding: 0 7px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	&__buttonbox {
+		display: flex;
+	}
+
+	&__button {
+		background: radial-gradient(
+			67.84% 96.97% at 49.82% 46.16%,
+			rgba(255, 254, 253, 0.66) 0%,
+			rgba(255, 246, 196, 0.66) 26.04%,
+			rgba(254, 243, 180, 0.66) 42.14%,
+			rgba(225, 198, 115, 0.66) 64.74%,
+			rgba(182, 135, 78, 0.66) 79.62%,
+			rgba(104, 77, 50, 0.66) 93.03%,
+			rgba(227, 184, 125, 0.66) 97.83%
+			),
+		linear-gradient(
+			86.24deg,
+			#cfa453 0.74%,
+			#f0af2d 9.81%,
+			#fdc43e 28.95%,
+			#ffcd33 52.93%,
+			#fde07e 69.95%,
+			#ffed87 86.72%,
+			#d2bb74 97.44%
+			);
+		box-shadow: inset 0px 3.4485px 20.691px rgba(255, 230, 97, 0.25);
+		border-radius: 1.72425px;
+		max-width: 211px;
+		height: 36px;
+		font-size: 13.1378px;
+		letter-spacing: 0.14em;
+		margin-right: 20px;
+
+		&_accreditation {
+			max-width: 250px;
+		}
+	}
+
+}

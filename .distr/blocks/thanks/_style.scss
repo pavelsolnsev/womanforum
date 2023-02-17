@@ -1,0 +1,22 @@
+.thanks {
+    .container {
+        max-width: 1600px;
+    }
+    background: url("../img/thanks/thanks-bg.jpg") no-repeat 0 0 / cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    &__wrap {
+        max-width: 930px;
+    }
+    &__title {
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    &__desc {
+        font-family: 'Tenor Sans', sans-serif;
+        font-size: 40px;
+        line-height: 124%;
+        color: #ffffff;
+    }
+}

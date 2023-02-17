@@ -1,0 +1,24 @@
+.request {
+    @media (max-width: 1279px) {
+    }
+    @media (max-width: 1199px) {
+        background: url("../img/request/form-bg-tab.jpg") no-repeat center center / cover;
+        padding: 55px 0;
+        &__form {
+            background: url(../img/form/bg-gold-mob.png) no-repeat center center;
+            border-radius: inherit;
+        }
+        .container {
+            padding: 0;
+        }
+    }
+
+    @media (max-width: 991px) {
+    }
+
+    @media (max-width: 767px) {
+    }
+
+    @media (max-width: 575px) {
+    }
+}

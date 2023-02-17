@@ -1,0 +1,82 @@
+@media (max-width: 1199px) {
+    .container {
+        max-width: none;
+        margin: 0 auto;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .title {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .small-text {
+        font-size: 16px;
+    }
+    .big-text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .title {
+        font-size: 35px;
+    }
+    .fixed {
+        position: fixed;
+        z-index: 9999;
+        bottom: 30px;
+        width: 100%;
+        max-width: 100%;
+        display: block;
+    }
+
+    // .show-button {
+    //     display: block;
+    // }
+
+    .fixed-button {
+        display: flex;
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+        height: 62px;
+        background: radial-gradient(
+                96.96% 104.69% at 68.75% 23.19%,
+                rgba(255, 254, 253, 0.6) 9.78%,
+                rgba(255, 246, 196, 0.6) 20.98%,
+                rgba(254, 243, 180, 0.6) 40.97%,
+                rgba(225, 198, 115, 0.6) 58.41%,
+                rgba(182, 135, 78, 0.6) 77.97%,
+                rgba(104, 77, 50, 0.6) 87.9%,
+                rgba(227, 184, 125, 0.6) 97.83%
+            ),
+            linear-gradient(
+                85.24deg,
+                #cfa453 0.14%,
+                #b9903d 1.74%,
+                #bd9c4e 25.59%,
+                #d0b769 44.57%,
+                #e2d197 59.68%,
+                #e6e3c0 75.47%,
+                #dacd83 93.85%,
+                #d2bb74 105.54%
+            );
+        box-shadow: inset 0px 4px 24px rgba(255, 230, 97, 0.25);
+        &:hover {
+           opacity: 1;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+}
+
+@media (max-width: 375px) {
+}

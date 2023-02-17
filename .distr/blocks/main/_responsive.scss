@@ -1,0 +1,147 @@
+.main {
+    @media (max-width: 1680px) {
+        &__form {
+            left: 0;
+            width: 40vw;
+            height: 39vw;
+            .form {
+                &__title {
+                    font-size: 1.8vw;
+                    margin-bottom: 1vw;
+                }
+                &__input {
+                    height: 4vw;
+                    font-size: 1vw;
+                }
+                &__button {
+                    font-size: 1.2vw;
+                }
+                &__footer-text {
+                    font-size: 1vw;
+                }
+                &__item {
+                    margin-bottom: 1vw;
+                }
+            }
+        }
+        &__toptext {
+            font-size: 1.2vw;
+        }
+        &__text {
+            margin-bottom: 40px;
+        }
+        &__title {
+            font-size: 7vw;
+        }
+        &__bottomtext {
+            font-size: 2.3vw;
+            padding-left: 50px;
+        }
+    }
+
+    @media (max-width: 1199px) {
+        background: url("../img/main/bg-tab.jpg") no-repeat 0 0 / cover;
+        &__inner {
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+        }
+        &_title {
+            font-size: 114.375px;
+        }
+        &__toptext {
+            font-size: 24px;
+            max-width: 475px;
+        }
+        &__form {
+            width: 632px;
+            height: 620px;
+            .form {
+                &__title {
+                    font-size: 40px;
+                }
+                &__input {
+                    height: 54px;
+                    font-size: 16.7536px;
+                }
+                &__button {
+                    font-size: 18px;
+                }
+                &__footer-text {
+                    font-size: 14px;
+                }
+                &__item {
+                    margin-bottom: 22px;
+                }
+            }
+        }
+        &__bottomtext {
+            font-size: 44.32px;
+        }
+    }
+
+    @media (max-width: 991px) {
+    }
+
+    @media (max-width: 767px) {
+        background: url("../img/main/bg-mob.jpg") no-repeat 0 0 / cover;
+        padding: 120px 0 80px;
+        &__inner {
+            justify-content: flex-start;
+        }
+        &__toptext {
+            font-size: 18px;
+            line-height: 157.2%;
+            padding-left: 0;
+            margin-bottom: 48px;
+        }
+
+        &__title {
+            font-size: 58.4537px;
+            line-height: 80.39%;
+            margin-bottom: 40px;
+            span {
+                padding-left: 40px;
+            }
+        }
+
+        &__mobiletext {
+            display: block;
+        }
+
+        &__bottomtext {
+            font-size: 22px;
+            line-height: 124%;
+            padding-left: 0;
+        }
+
+        &__form {
+            display: none;
+        }
+
+        &__button {
+            display: block;
+        }
+
+        .triggers {
+            font-size: 18px;
+            line-height: 21px;
+        }
+
+        .triggers:before {
+            width: 8px;
+            height: 8px;
+            margin: 0 20px;
+        }
+
+        .main__trigger {
+            bottom: 35px;
+        }
+    }
+
+    @media (max-width: 359px) {
+        &__title {
+            font-size: 52.4537px;
+        }
+    }
+}

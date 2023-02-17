@@ -1,0 +1,105 @@
+.organizer {
+    @media (max-width: 1199px) {
+        background: #fff;
+        padding-top: 100px;
+        &__title {
+            text-align: left;
+        }
+
+        &__subtitle {
+            font-size: 36px;
+        }
+
+        &__bottom-content {
+            padding-bottom: 100px;
+            &:before {
+                content: url('../img/organizer/bg-franchise-tab.png');
+            }
+        }
+
+        &__desc {
+            font-size: 36px;
+        }
+
+        &__franchise-desc {
+            margin-bottom: 40px;
+        }
+
+        &__franchise {
+            display: block;
+        }
+        &__franchise-numbs {
+            display: flex;
+            flex-direction: column;
+        }
+        &__franchise-btn {
+            order: -1;
+            margin-left: 0;
+            margin-top: 0;
+            margin-bottom: 80px;
+        }
+    }
+
+
+    @media (max-width: 991px) {
+
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 60px;
+        &__subtitle {
+            font-size: 25px;
+        }
+
+        &__desc {
+            font-size: 29px;
+        }
+
+        &__top-content {
+            margin-bottom: 165px;
+        }
+
+        &__bottom-content {
+            &:before {
+                content: url('../img/organizer/bg-franchise-mob.png');
+                top: -130px;
+            }
+        }
+        &__franchise {
+            margin-bottom: 40px;
+        }
+        &__franchise-numb-separate {
+            display: none;
+        }
+
+        &__franchise-numbs {
+            margin-top: 40px;
+        }
+
+
+        &__franchise-numbs-row {
+            display: block;
+            margin-bottom: 0;
+        }
+
+        &__franchise-numb {
+            margin-bottom: 20px;
+            &-text {
+                font-size: 16px;
+                line-height: 24px;
+            }
+            &-count {
+                font-size: 37px;
+            }
+
+        }
+
+        &__franchise-btn {
+            margin-bottom: 36px;
+        }
+    }
+
+    @media (max-width: 575px) {
+
+    }
+}

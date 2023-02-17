@@ -1,0 +1,230 @@
+.popup-reg {
+    max-width: 360px;
+    padding: 50px 20px;
+    background: url("../img/popups/bg-form-price.png") no-repeat 0 0 / cover,
+        radial-gradient(
+            58.42% 70.59% at 68.8% 22.26%,
+            rgba(255, 254, 253, 0.6) 9.78%,
+            rgba(255, 246, 196, 0.6) 20.98%,
+            rgba(254, 243, 180, 0.6) 40.97%,
+            rgba(225, 198, 115, 0.6) 67.92%,
+            rgba(182, 135, 78, 0.6) 82.77%,
+            rgba(104, 77, 50, 0.6) 87.9%,
+            rgba(227, 184, 125, 0.6) 97.83%
+        ),
+        linear-gradient(
+            85.24deg,
+            #cfa453 1.54%,
+            #b9903d 3.11%,
+            #bd9c4e 26.64%,
+            #d0b769 45.37%,
+            #e2d197 60.28%,
+            #e6e3c0 75.86%,
+            #dacd83 94%,
+            #d2bb74 105.54%
+        );
+    box-shadow: inset 0px 4px 24px rgba(255, 230, 97, 0.25);
+
+    .form {
+        padding: 0;
+        .form__title {
+            font-size: 32px;
+            line-height: 104%;
+        }
+    }
+    .send-success {
+        color: black;
+    }
+
+    &#popup-organizer {
+        .form__title {
+            text-transform: uppercase;
+        }
+    }
+}
+
+.popup-speaker {
+    padding: 0;
+    max-width: 857px;
+    width: 100%;
+    &__box {
+        overflow: hidden;
+    }
+    &__card {
+        padding: 20px;
+        color: #fff;
+        background: url("../img/popups/bg-card.png") no-repeat 0 0 / cover,
+        linear-gradient(0deg, #4C4E59, #4C4E59), radial-gradient(187.27% 196.92% at 56.88% 24.78%, #FFFBFA 0%, #F8F5F4 24.19%, #F3EEEB 37.08%, #E6DBD3 58%, #E1D4CA 64.52%, #B5A995 100%);
+        &-wrapper {
+            display: flex;
+            align-items: center;
+        }
+        &-name {
+            color: #fff;
+            font-size: 40px;
+            line-height: 101.2%;
+            letter-spacing: 0.04em;
+            margin-bottom: 20px;
+        }
+        &-photo {
+            max-width: 241px;
+        }
+        &-mobile {
+            display: none;
+        }
+    }
+    &__content {
+        display: flex;
+    }
+    &__form {
+        background: url("../img/popups/bg-form.png") no-repeat 0 0 / cover,
+            radial-gradient(
+                77.08% 80.19% at 44.84% 50%,
+                rgba(255, 254, 253, 0.6) 9.78%,
+                rgba(255, 246, 196, 0.6) 20.98%,
+                rgba(254, 243, 180, 0.6) 40.97%,
+                rgba(225, 198, 115, 0.6) 67.92%,
+                rgba(182, 135, 78, 0.6) 82.77%,
+                rgba(104, 77, 50, 0.6) 87.9%,
+                rgba(227, 184, 125, 0.6) 97.83%
+            ),
+            linear-gradient(
+                85.24deg,
+                #cfa453 1.54%,
+                #b9903d 3.11%,
+                #bd9c4e 26.64%,
+                #d0b769 45.37%,
+                #e2d197 60.28%,
+                #e6e3c0 75.86%,
+                #dacd83 94%,
+                #d2bb74 105.54%
+            );
+        box-shadow: inset 0px 4px 24px rgba(255, 230, 97, 0.25);
+        .form {
+            padding: 15px 40px;
+            width: 340px;
+            &__title {
+                font-size: 26px;
+                line-height: 114%;
+            }
+            &__item {
+                margin-bottom: 10px;
+            }
+            &__footer-text {
+                line-height: 120%;
+            }
+        }
+    }
+
+    &__info {
+        height: 520px;
+        overflow-y: auto;
+        padding: 37px;
+        ul {
+            li {
+                font-size: 18px;
+                line-height: 127%;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+.mobile-menu {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    .container {
+        background: #fff;
+        padding: 0 15px;
+    }
+    &__header {
+        margin-bottom: 60px;
+        padding-top: 14px;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        li {
+            margin-bottom: 30px;
+        }
+        a {
+            font-size: 18px;
+            line-height: 250%;
+            text-decoration: none;
+        }
+    }
+}
+
+.popup-price {
+    padding: 50px 20px;
+    max-width: 360px;
+    width: 100%;
+    background: url("../img/popups/bg-form-price.png") no-repeat 0 0 / cover,
+        radial-gradient(
+            58.42% 70.59% at 68.8% 22.26%,
+            rgba(255, 254, 253, 0.6) 9.78%,
+            rgba(255, 246, 196, 0.6) 20.98%,
+            rgba(254, 243, 180, 0.6) 40.97%,
+            rgba(225, 198, 115, 0.6) 67.92%,
+            rgba(182, 135, 78, 0.6) 82.77%,
+            rgba(104, 77, 50, 0.6) 87.9%,
+            rgba(227, 184, 125, 0.6) 97.83%
+        ),
+        linear-gradient(
+            85.24deg,
+            #cfa453 1.54%,
+            #b9903d 3.11%,
+            #bd9c4e 26.64%,
+            #d0b769 45.37%,
+            #e2d197 60.28%,
+            #e6e3c0 75.86%,
+            #dacd83 94%,
+            #d2bb74 105.54%
+        );
+    box-shadow: inset 0px 4px 24px rgba(255, 230, 97, 0.25);
+    .form {
+        padding: 0;
+        .popup-price__close-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .form__title {
+            font-size: 32px;
+            line-height: 104%;
+        }
+    }
+}
+
+.popup-accreditation {
+    width: 100%;
+    max-width: 646px;
+    padding: 0;
+
+    &__title {
+        padding: 40px 53px;
+        background: url(../img/popups/bg_popup-accreditation.png) no-repeat 50% 0;
+        background-size: cover;
+        box-shadow: 0px 11px 34px rgba(115, 124, 140, 0.59);
+        font-family: "Tenor Sans", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: 0.04em;
+        color: #fff;
+    }
+
+    &__text {
+        padding: 42px 53px 42px 41px;
+
+        P {
+            font-size: 28px;
+            line-height: 128%;
+            margin-bottom: 12px;
+        }
+    }
+}

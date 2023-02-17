@@ -1,0 +1,155 @@
+.main {
+    position: relative;
+    padding: 220px 0;
+    background: url("../img/main/bg.jpg") no-repeat 0 0 / cover;
+
+    &__inner {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        color: #fff;
+    }
+
+    &__form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 632px;
+        height: 620px;
+        background: url("../img/main/form-bg-main.png") no-repeat center center / cover;
+        position: relative;
+        left: 90px;
+        top: 40px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 135.267px;
+        line-height: 80.39%;
+        text-transform: uppercase;
+        font-family: "Lovelace", sans-serif;
+        margin: 20px 0;
+        span {
+            padding-left: 112px;
+        }
+    }
+
+    &__toptext {
+        font-weight: 400;
+        line-height: 1;
+        text-transform: uppercase;
+        line-height: 120%;
+        font-size: 22px;
+        font-family: 'Tenor Sans', sans-serif;
+    }
+    &__mobiletext {
+        font-size: 26px;
+        line-height: 120%;
+        font-family: "Tenor Sans", sans-serif;
+        display: none;
+    }
+    &__date {
+        padding-right: 10px;
+        border-right: 1px solid white;
+    }
+    &__note {
+        padding-left: 10px;
+    }
+
+    &__bottomtext {
+        font-size: 43.32px;
+        line-height: 124%;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        font-family: "Tenor Sans", sans-serif;
+        padding-left: 80px;
+    }
+
+    &__button {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 28px;
+        display: none;
+        &-down {
+            background: url('../img/main/button.png') no-repeat 0 0 / cover;
+            max-width: 320px;
+            margin: 0 auto;
+            height: 62px;
+            padding-top: 15px;
+        }
+    }
+
+    // Бегущая строка
+    .main__trigger {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        width: 100%;
+        height: 52px;
+    }
+    .triggers-box {
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 12px 0;
+        position: absolute;
+        left: -100vw;
+        // bottom: 50px;
+        width: 200vw;
+        font-size: 0;
+        // margin-top: 50px;
+    }
+
+    .triggers-box:before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        width: 340px;
+        height: 100%;
+        background: url(".././img/main/line.svg") center center no-repeat;
+        opacity: 0.8;
+        animation: triggers-decorations 6s infinite linear;
+    }
+
+    .triggers-box__inner {
+        width: 100vw;
+    }
+
+    @keyframes triggers-decorations {
+        from {
+            right: -340px;
+        }
+
+        to {
+            right: calc(50% + 340px);
+        }
+    }
+
+    .triggers-box .owl-stage-outer {
+        z-index: 2;
+    }
+
+    .triggers {
+        font-family: "Tenor Sans", sans-serif;
+        display: inline-block;
+        position: relative;
+        font-size: 30px;
+        line-height: 35px;
+        color: #ffffff;
+        z-index: 2;
+    }
+
+    .triggers:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 13px;
+        height: 13px;
+        margin: 0 40px;
+        background: #fff;
+        border-radius: 50%;
+    }
+}

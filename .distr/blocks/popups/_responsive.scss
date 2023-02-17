@@ -1,0 +1,40 @@
+.popup {
+
+    @media (max-width: 1199px) {
+        
+    }
+
+    @media (max-width: 991px) {
+        
+    }
+
+    @media (max-width: 767px) {
+        
+    }
+
+    @media (max-width: 575px) {
+        
+    }
+}
+
+.popup-accreditation {
+
+    @media (max-width: 575px) {
+        
+        max-width: 320px;
+
+        &__title {
+            padding: 40px 30px;
+            font-size: 28px;
+        }
+
+        &__text {
+            padding: 42px 30px 42px 30px;
+
+            P {
+                font-size: 22px;
+            }
+        }
+    }
+}
+   

@@ -1,0 +1,35 @@
+.how {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    &__wrap {
+        display: flex;
+        margin: 35px -10px 0 -10px;
+    }
+
+    &__video{
+        min-height: 320px;
+        width: 100%;
+        position: relative;
+        background: url("../img/how/bg.jpg") left center no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px;
+        &:nth-child(2) {
+            background: url("../img/how/bg2020.jpg") left center no-repeat;
+            background-size: cover;
+        }
+        &-play{
+            width: 53px;
+            height: 53px;
+            transition: 0.4s;
+        }
+        &:hover{
+            opacity: 1;
+            .how__video-play{
+                opacity: 0.8;
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.request {
+  background: url('../img/request/form-bg.jpg') no-repeat center center / cover;
+  padding: 90px 0;
+  &__form {
+    background: url(../img/form/bg-gold.png) no-repeat center center;
+    border-radius: 270px;
+  }
+}

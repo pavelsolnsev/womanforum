@@ -1,0 +1,27 @@
+.services {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    &__title {
+        text-align: center;
+    }
+    &__wrap {
+        position: relative;
+    }
+
+    &__item {
+        border: 1px solid #CCCCCC;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .slick-slide {
+        margin: 0 15px;
+    }
+    .slick-list {
+        margin: 0 -15px;
+    }
+    .slick-list, .slick-track {
+        display: flex;
+    }
+
+}

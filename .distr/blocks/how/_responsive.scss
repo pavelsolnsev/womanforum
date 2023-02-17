@@ -1,0 +1,40 @@
+.how {
+    @media (max-width: 1279px) {
+    }
+    @media (max-width: 1199px) {
+        padding-bottom: 40px;
+    }
+
+    @media (max-width: 991px) {
+        padding-bottom: 30px;
+        &__video {
+            min-height: 260px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        &__video {
+            min-height: 380px;
+            margin: 0 0 20px 0;
+            &-play {
+                width: 75px;
+                height: 75px;
+            }
+        }
+        &__wrap {
+            flex-direction: column;
+            margin: 35px 0 0 0;
+        }
+    }
+
+    @media (max-width: 575px) {
+        padding-bottom: 20px;
+        &__video {
+            min-height: 235px;
+            &-play {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+}

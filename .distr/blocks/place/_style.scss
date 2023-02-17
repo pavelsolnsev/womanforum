@@ -1,0 +1,109 @@
+.place {
+    background: url("../img/place/place-bg.jpg") no-repeat 0 0;
+    position: relative;
+    padding: 170px 0;
+    &::before {
+        content: url("../img/place/bg-line.png");
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+    &__img {
+        position: absolute;
+        right: 0;
+        top: 0;
+        object-fit: cover;
+        width: 60%;
+        height: 100%;
+    }
+    &__img-tab {
+        display: none;
+        position: static;
+        width: 100%;
+        object-fit: cover;
+    }
+    &__inner {
+        position: relative;
+        z-index: 10;
+    }
+    &__content {
+        color: #fff;
+        max-width: 700px;
+        margin-bottom: 85px;
+    }
+    &__title {
+        font-size: 44.32px;
+        color: #fff;
+    }
+
+    &__text {
+        font-size: 30px;
+        line-height: 128%;
+        margin-bottom: 58px;
+    }
+
+    &__button {
+        color: #000;
+        max-width: 254px;
+        height: 39px;
+        background: radial-gradient(
+                67.84% 96.97% at 49.82% 46.16%,
+                rgba(255, 254, 253, 0.66) 0%,
+                rgba(255, 246, 196, 0.66) 26.04%,
+                rgba(254, 243, 180, 0.66) 42.14%,
+                rgba(225, 198, 115, 0.66) 64.74%,
+                rgba(182, 135, 78, 0.66) 79.62%,
+                rgba(104, 77, 50, 0.66) 93.03%,
+                rgba(227, 184, 125, 0.66) 97.83%
+            ),
+            linear-gradient(
+                86.24deg,
+                #cfa453 0.74%,
+                #f0af2d 9.81%,
+                #fdc43e 28.95%,
+                #ffcd33 52.93%,
+                #fde07e 69.95%,
+                #ffed87 86.72%,
+                #d2bb74 97.44%
+            );
+        font-size: 13.1378px;
+        line-height: 108%;
+        letter-spacing: 0.11em;
+        &:before {
+            content: url("../img/place/pin.png");
+            margin-right: 10px;
+        }
+        &:active,
+        &:hover,
+        &:focus {
+            color: #000;
+        }
+    }
+    &__statistics {
+        position: relative;
+        z-index: 10;
+        ul {
+            display: flex;
+            max-width: 1020px;
+            justify-content: space-between;
+            li {
+                font-family: "Raleway", sans-serif;
+                font-weight: 500;
+                font-size: 20px;
+                color: #fff;
+                display: flex;
+                align-items: flex-end;
+                span {
+                    font-family: "Tenor Sans", sans-serif;
+                    font-size: 100px;
+                    line-height: 80px;
+                    letter-spacing: -0.06em;
+                    text-transform: uppercase;
+                    color: #f0c69c;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}

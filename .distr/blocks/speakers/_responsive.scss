@@ -1,0 +1,166 @@
+.speakers {
+	@media (max-width: 1350px) {
+		&__col {
+			padding: 80px 15px;
+		}
+	}
+	@media (max-width: 1199px) {
+
+		&__col {
+			max-width: 50%;
+			flex: 0 0 50%;
+		}
+	}
+
+	@media (max-width: 991px) {
+		&__col {
+			&.headliner {
+				flex: 0 0 90%;
+				max-width: 90%;
+			}
+		}
+
+		&__photo {
+			.headliner & {
+				left: -65px;
+			}
+		}
+	}
+
+	@media (max-width: 767px) {
+		&__title {
+			&.speakers__title-head {
+				margin-bottom: 69px;
+			}
+		}
+		&__photo {
+			max-width: 282px;
+			&::after {
+				bottom: 54px;
+			}
+			.headliner & {
+				width: 100%;
+				left: inherit;
+				right: 50%;
+				transform: translate(50%, 0);
+				top: -148px;
+				img {
+					margin: 0;
+				}
+				&::after {
+					content: url(../img/speakers/line.png);
+					right: 0;
+					left: 0;
+				}
+			}
+		}
+
+		&__col {
+			max-width: 100% !important;
+			flex: 0 0 100% !important;
+		}
+		&__item {
+			padding: 179px 0 48px !important;
+			.headliner & {
+				flex-direction: column;
+				background: radial-gradient(
+					187.27% 156% at 56.88% 19.63%,
+					#fffbfa 0%,
+					#f8f5f4 24.19%,
+					#f3eeeb 37.08%,
+					#e6dbd3 58%,
+					#e1d4ca 64.52%,
+					#b5a995 100%
+				);
+				padding-left: 0;
+			}
+		}
+
+		&__info {
+			.headliner & {
+				max-width: 100%;
+				text-align: center;
+			}
+		}
+		&__video {
+			font-size: 14px;
+			margin: 0 auto 10px;
+		}
+		&__name {
+			font-size: 29.3435px;
+		}
+		&__post {
+			font-size: 14px;
+		}
+		&__button {
+			font-size: 14px;
+			.headliner & {
+				margin: 0 auto;
+			}
+		}
+		&__more-btn {
+			height: 70px;
+			font-size: 15px;
+			img {
+
+				max-width: 20px;
+
+			}
+		}
+		.speakers__col {
+			&:last-child {
+				.speakers__name {
+					font-size: 28px;
+					margin-top: 0;
+				}
+				.speakers__photo {
+					top: -130px;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 575px) {
+	}
+
+	@media (max-width: 425px) {
+	}
+}
+
+.popup-speaker {
+	@media (max-width: 991px) {
+		max-width: 360px;
+		&__card {
+			padding: 0 20px 20px 20px;
+			&-name {
+				font-size: 20px;
+				line-height: 101.2%;
+				margin-bottom: 0;
+			}
+			&-post {
+				display: none;
+			}
+			&-mobile {
+				display: block;
+			}
+			&-photo {
+				max-width: 133px;
+				margin-right: 10px;
+			}
+		}
+		&__form {
+			display: none;
+		}
+		&__content {
+			height: 440px;
+		}
+		&__info {
+			padding: 20px;
+			ul {
+                li {
+                    font-size: 16px;
+                }
+            }
+		}
+	}
+}

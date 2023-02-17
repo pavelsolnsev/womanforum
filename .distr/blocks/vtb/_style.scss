@@ -1,0 +1,203 @@
+.vtb {
+	padding: 100px 0 127px 0;
+
+	&__box {
+		position: relative;
+		display: flex;
+		max-width: 1144px;
+		background: #fff;
+		box-shadow: 0px 4.02994px 30.2245px rgba(77, 44, 224, 0.3);
+		margin: 0 auto;
+		cursor: pointer;
+	}
+
+	&__left {
+		width: 55%;
+		padding: 64px 40px 55px 61px;
+	}
+
+	&__right {
+		display: flex;
+		width: 45%;
+		padding: 70px 29px 40px 29px;
+		flex-direction: column;
+		background: #123274;
+		&-item {
+			margin: 0 2px;
+			img {
+				display: block;
+				max-width: 100%;
+			}
+			p {
+				font-weight: bold;
+				font-size: 20px;
+				line-height: 24px;
+				text-align: center;
+				color: #ffffff;
+				margin-top: 20px;
+			}
+		}
+		&-block {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+		}
+		&-content {
+			margin-top: 35px;
+			&_title {
+				font-weight: 600;
+				font-size: 22px;
+				line-height: 24px;
+				color: #ffffff;
+				padding-left: 75px;
+				margin-bottom: 30px;
+				position: relative;
+				span {
+					color: #5fdef8;
+				}
+				&:before {
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 56px;
+					height: 57px;
+					background: url("../img/vtb/gift.png") no-repeat 50% 0;
+				}
+			}
+			&_list {
+				margin: 0;
+				padding: 0;
+				list-style-type: none;
+				li {
+					position: relative;
+					font-size: 20px;
+					line-height: 120%;
+					color: #ffffff;
+					padding-left: 45px;
+					margin-bottom: 25px;
+					&:before {
+						content: "";
+						width: 30px;
+						height: 1px;
+						background-color: #ffffff;
+						position: absolute;
+						left: 0;
+						top: 12px;
+					}
+				}
+			}
+		}
+	}
+
+	&__logo {
+		margin-bottom: 34px;
+	}
+
+	&__title {
+		font-family: Georgia;
+		font-weight: 600;
+		font-size: 38.5459px;
+		line-height: 115%;
+		margin-bottom: 16px;
+
+		span {
+			color: #c49c37;
+		}
+	}
+
+	&__subtitle {
+		font-family: Georgia;
+		font-weight: 600;
+		font-size: 22.27px;
+		line-height: 163%;
+		color: #0a2973;
+	}
+
+	&__list {
+		display: inline-block;
+		min-width: 370px;
+		list-style: none;
+		padding: 0 0 10px 0;
+
+		&-item {
+			font-family: Raleway;
+			font-size: 18px;
+			line-height: 129%;
+			padding: 10px 0;
+			border-bottom: 1px solid rgba(0, 67, 187, 0.14);
+
+			&:last-child {
+				border: 0;
+			}
+
+			&-part {
+				font-weight: 700;
+				color: #5fdef8;
+			}
+		}
+	}
+
+	&__button,
+	&__button:hover,
+	&__button:focus {
+		font-size: 23.3068px;
+		background: radial-gradient(
+				67.84% 96.97% at 49.82% 46.16%,
+				rgba(255, 254, 253, 0.66) 0%,
+				rgba(255, 246, 196, 0.66) 26.04%,
+				rgba(254, 243, 180, 0.66) 42.14%,
+				rgba(225, 198, 115, 0.66) 64.74%,
+				rgba(182, 135, 78, 0.66) 79.62%,
+				rgba(104, 77, 50, 0.66) 93.03%,
+				rgba(227, 184, 125, 0.66) 97.83%
+			),
+			linear-gradient(
+				86.24deg,
+				#cfa453 0.74%,
+				#f0af2d 9.81%,
+				#fdc43e 28.95%,
+				#ffcd33 52.93%,
+				#fde07e 69.95%,
+				#ffed87 86.72%,
+				#d2bb74 97.44%
+			);
+		box-shadow: inset 0px 2.0212px 12.1272px rgba(255, 230, 97, 0.25);
+		color: white;
+		max-width: 286px;
+		width: 100%;
+		height: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+		color: #000;
+		&::before {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			content: '';
+		}
+	}
+
+	&__gift {
+		position: relative;
+		padding-left: 70px;
+		font-weight: 600;
+		font-size: 26px;
+		line-height: 98%;
+		color: #fff;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 56px;
+			height: 57px;
+			background: url(../img/vtb/gift.png) no-repeat 50% 0;
+		}
+	}
+}

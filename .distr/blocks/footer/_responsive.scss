@@ -1,0 +1,52 @@
+.footer {
+
+    @media screen and (max-width: 1199px) {
+        &__top {
+            flex-wrap: wrap;
+        }
+
+        &__nav {
+            width: 100%;
+            order: 3;
+            justify-content: space-between;
+            margin-top: 36px;
+        }
+
+        &__contacts {
+            width: 30%;
+            order: 2;
+            text-align: right;
+        }
+    }
+
+    @media (max-width: 767px) {
+        padding-bottom: 130px;
+        &__top {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__logo {
+            order: 0;
+            margin-bottom: 32px;
+        }
+
+        &__nav {
+            display: none;
+        }
+
+        &__contacts {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__bottom {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 575px) {
+        
+    }
+}
